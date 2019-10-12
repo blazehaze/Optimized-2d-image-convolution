@@ -33,4 +33,5 @@ for i in range(3):
     plt.plot(mat_dims, [x[i] for x in time_taken])
 plt.xlabel('matrix dimension')
 plt.ylabel('time taken(/s)')
+plt.legend(['naive', 'normal', 'optimized'])
 plt.show()
